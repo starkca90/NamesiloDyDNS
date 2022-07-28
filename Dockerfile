@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.9.10-alpine
+FROM python:3.11.0b4-alpine
 WORKDIR /app
 COPY requirements.txt requirements.txt
 
